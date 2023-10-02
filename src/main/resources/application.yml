@@ -1,0 +1,11 @@
+server:
+  authorization:
+    url: http://localhost:9000
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/security_bank
+    username: jairo
+    password: jairoprogramador
+    hikari:
+      connection_timeout: 20000
+      maximum_pool_size: 5
